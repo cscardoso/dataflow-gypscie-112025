@@ -1,0 +1,19 @@
+name: pytorch-2.0.1
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=23.3
+  - numpy<2
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - torchaudio=2.0.2
+  - pytorch-cuda=11.8
+  - jupyter
+  - pip:
+      - matplotlib
+      - pyarrow
+      - mlflow
+      - kedro~=0.18.13
